@@ -23,6 +23,7 @@
                                     'paged' => 1,
                                 );
                                 $news_posts = new WP_Query( $news_posts1 );
+                                $count_posts = wp_count_posts( 'news' )->publish;
                                 if( $news_posts->have_posts() ) :
                                     $i =0;
                                         while( $news_posts->have_posts() ) :
@@ -51,9 +52,11 @@
                                 endif; wp_reset_postdata();
                             ?>
                         </div>
+                        <?php if ($count_posts > 20) : ?>
                         <div id="loading-bar-spinner" class="news_spinner">
                             <div class="spinner-icon"></div>
                         </div>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
