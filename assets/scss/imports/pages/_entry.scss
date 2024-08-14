@@ -349,7 +349,7 @@
           visibility: hidden;
         }
 
-        &.error {
+        &.is-error {
           &:after {
             border-bottom: 1px solid #e74c3c;
           }
@@ -491,7 +491,7 @@
           outline: 0;
           padding: 0 !important;
           height: 16px;
-          width: 16px;
+          width: 22px;
           display: block;
           -webkit-appearance: none;
           position: relative;

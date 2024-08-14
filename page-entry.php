@@ -163,7 +163,7 @@
                         </div>
                         <div class="entry_content js-entry-content" data-content="2">
                             <div class="entry_contact js-form txt7-fw">
-                                <form action="/" id="myForm">
+                                <form id="myForm" enctype="multipart/form-data" method="post" onsubmit="validateForm(); return false;">
                                     <!-- name field -->
                                     <div class="entry_contact_items">
                                         <label for="category">
@@ -178,7 +178,7 @@
                                             </span>
                                         </label>
                                         <div class="entry_contact_fields">
-                                            <input size="40" class="custom-input" id="name" aria-required="true"
+                                            <input size="40" class="custom-input" id="username" aria-required="true"
                                                 aria-invalid="false" value="" type="text" name="username">
                                             <small>Error Message</small>
                                         </div>
@@ -376,34 +376,34 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
 
-                            <div class="entry_contact_description txt7-fw">
-                                <p>
-                                    クラウドストレージサービス・データファイル転送サービス等（Dropbox、Google Drive、Fire
-                                    Storage、etc）を利用してアップロード後、リンク先URLを記してください。期限切れなどにより作品データのダウンロードができない場合は、応募を無効とさせていただきます。ファイルサイズは1点につき3MBまでを目処としてください。ただし動画など比較的容量の大きなファイル形式の場合はこの限りではありません。
-                                </p>
-                            </div>
-
-                            <div class="entry_contact_privacy">
-                                <div class="entry_contact_privacy_content txt7-fw">
+                                <div class="entry_contact_description txt7-fw">
                                     <p>
-                                        プライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシ
+                                        クラウドストレージサービス・データファイル転送サービス等（Dropbox、Google Drive、Fire
+                                        Storage、etc）を利用してアップロード後、リンク先URLを記してください。期限切れなどにより作品データのダウンロードができない場合は、応募を無効とさせていただきます。ファイルサイズは1点につき3MBまでを目処としてください。ただし動画など比較的容量の大きなファイル形式の場合はこの限りではありません。
                                     </p>
                                 </div>
-                                <div class="entry_contact_privacy_check">
-                                    <input id="js-checkbox" name="checkbox" type="checkbox" value="">
-                                    <p class="txt7">プライバシーポリシーに同意する</p>
-                                </div>
-                            </div>
 
-                            <div class="entry_btn">
-                                <button class="entry_btn_confirm js-contact-confirm" type="submit">
-                                    <p class="txt7-fw">確認</p>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16.135" viewBox="0 0 20 16.135">
-                                        <path id="Path_1211" data-name="Path 1211" d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z" transform="translate(0)"/>
-                                      </svg>
-                                </button>
+                                <div class="entry_contact_privacy">
+                                    <div class="entry_contact_privacy_content txt7-fw">
+                                        <p>
+                                            プライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシーが入りますプライバシーポリシ
+                                        </p>
+                                    </div>
+                                    <div class="entry_contact_privacy_check">
+                                        <input id="js-checkbox" name="checkbox" type="checkbox" value="">
+                                        <p class="txt7">プライバシーポリシーに同意する</p>
+                                    </div>
+                                </div>
+
+                                <div class="entry_btn">
+                                    <button class="entry_btn_confirm js-contact-next" form="myForm" type="submit" id="btnNext">
+                                        <p class="txt7-fw">確認</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16.135" viewBox="0 0 20 16.135">
+                                            <path id="Path_1211" data-name="Path 1211" d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z" transform="translate(0)"/>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
