@@ -312,6 +312,13 @@
           right: -20px;
           top: 5px;
           transform: scaleY(0.7);
+
+          &:after {
+            content: "*";
+            position: absolute;
+            font-size: 2rem;
+            color: #A80000;
+          }
         }
       }
 

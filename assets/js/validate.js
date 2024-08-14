@@ -9,17 +9,18 @@ const contactForm = document.getElementById("myForm"),
     title = document.getElementById("title"),
     recommend = document.getElementById("recommend"),
     plan = document.getElementById("plan"),
-    url = document.getElementById("url");
+    url = document.getElementById("url"),
+    btnConfirm = document.getElementById("btnConfirm");
 
 let hasError = false;
 
 //Show input error messages
 const showError = (input, message) => {
     const formControl = input.parentElement;
-    const small = formControl.querySelector("small");
     $(formControl).addClass("is-error");
-    small.innerText = message;
     hasError = false;
+    // const small = formControl.querySelector("small");
+    // small.innerText = message;
 };
 
 //show success colour
@@ -80,31 +81,30 @@ const checkMailMatch = (input1, input2) => {
     }
 };
 
-function validateForm() {
-    checkRequired([username, phone, email, age, profile, title, recommend, plan, url]);
-    checkLength(username, 1, 99);
-    checkEmail(email);
-    if (hasError && $(".is-error").length === 0) {
-        // $("#myForm").submit();
-    } else {
-        return false;
-    }
-}
-
+// function validateForm() {
+//     checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
+//     checkLength(username, 1, 99);
+//     checkEmail(email);
+//     if (hasError && $(".is-error").length === 0) {
+//         $("#myForm").submit();
+//     } else {
+//         return false;
+//     }
+// }
 
 $("#js-checkbox").change(function () {
     let isCheck = this.checked;
     if (isCheck) {
         $(this).addClass("show");
-        $(this).closest(".js-form").find(".js-contact-next").addClass("show");
+        $(this).closest(".js-form").find(".js-contact-confirm").addClass("show");
     } else {
         $(this).removeClass("show");
-        $(this).closest(".js-form").find(".js-contact-next").removeClass("show");
+        $(this).closest(".js-form").find(".js-contact-confirm").removeClass("show");
     }
 });
 
-// const btnNext = document.getElementById("btnNext");
-// btnNext.addEventListener("click", () => {
-//     validateForm();
-// });
-// window.location.replace("confirm.php");
+btnConfirm.addEventListener("click", () => {
+    checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
+    checkLength(username, 1, 99);
+    checkEmail(email);;
+});
