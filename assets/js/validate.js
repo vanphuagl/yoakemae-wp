@@ -108,3 +108,5 @@ btnConfirm.addEventListener("click", () => {
     checkLength(username, 1, 99);
     checkEmail(email);;
 });
+
+// https://www.xserver.ne.jp/bizhp/contact-form-7-confirm-thanks/
