@@ -14,6 +14,10 @@
     <script src="<?= get_template_directory_uri() ?>/assets/js/main.js"></script>
     <?php endif; ?>
 
+    <?php if (is_page("entry")) :?>
+    <script src="<?= get_template_directory_uri() ?>/assets/js/validate.js"></script>
+    <?php endif;  ?>
+
     <?php wp_footer(); ?>
 </body>
 
