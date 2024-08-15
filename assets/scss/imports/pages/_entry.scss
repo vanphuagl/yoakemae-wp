@@ -602,14 +602,20 @@
         }
       }
 
-      svg {
+      span.arrow {
         position: absolute;
-        top: 45%;
-        right: 55px;
-        transform: scaleY(0.7) translateY(-50%);
+        top: 50%;
+        right: 25px;
+        transform: translateY(-50%);
+        display: block;
 
-        path {
-          transition: 0.3s ease-in-out;
+        svg {
+          width: 20px;
+          height: auto;
+
+          path {
+            transition: 0.3s ease-in-out;
+          }
         }
       }
 
@@ -618,10 +624,15 @@
         button {
           height: 80px;
         }
-        svg {
-          width: 22px;
-          height: auto;
-          right: 34px;
+        p {
+          font-size: 2.2rem;
+        }
+
+        span.arrow {
+          svg {
+            width: 15px;
+            right: 34px;
+          }
         }
       }
     }

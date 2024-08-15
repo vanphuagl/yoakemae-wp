@@ -43,9 +43,11 @@
                             <div class="entry_btn">
                                 <button class="entry_btn_send js-contact-send" type="submit" form="myForm">
                                     <p class="txt7-fw">応募する</p>
-                                    <svg role="img" aria-label="Entry Button" xmlns="http://www.w3.org/2000/svg" width="30" height="24.203" viewBox="0 0 30 24.203">
-                                        <path id="Path_938" data-name="Path 938" d="M18,0,26.83,10.923v.107H0v2.142H26.83v.107L18,24.2h2.4L30,12.1,20.4,0Z" transform="translate(0 0)"></path>
-                                    </svg>
+                                    <span class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16.135" viewBox="0 0 20 16.135">
+                                            <path id="Path_1211" data-name="Path 1211" d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z" transform="translate(0)"/>
+                                        </svg>
+                                    </span>
                                 </button>
                             </div>
 

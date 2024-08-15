@@ -96,10 +96,10 @@ $("#js-checkbox").change(function () {
     let isCheck = this.checked;
     if (isCheck) {
         $(this).addClass("show");
-        $(this).closest(".js-form").find(".js-contact-confirm").addClass("show");
+        $(".js-contact-confirm").addClass("show");
     } else {
         $(this).removeClass("show");
-        $(this).closest(".js-form").find(".js-contact-confirm").removeClass("show");
+        $(".js-contact-confirm").removeClass("show");
     }
 });
 
