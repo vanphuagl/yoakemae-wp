@@ -95,11 +95,11 @@
     margin-top: 10px;
     margin-left: 2px;
     display: flex;
-    gap: calc(16px * 3);
+    gap: 38px;
 
     @include maxW(1023px) {
       margin-top: 6px;
-      gap: calc(15px * 3);
+      gap: 35px;
     }
   }
 

@@ -338,6 +338,11 @@
         padding-top: 15px;
         padding-bottom: 25px;
 
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.2;
+        font-family: $tsu-fonts;
+
         &:after {
           content: "";
           position: absolute;
@@ -398,6 +403,7 @@
         @include maxW(1023px) {
           padding-top: 10px;
           padding-bottom: 10px;
+          font-size: 1.6rem;
 
           input,
           textarea,

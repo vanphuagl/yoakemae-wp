@@ -10,22 +10,26 @@
                     <div class="entry_sticky">
                         <ul class="entry_nav js-entry-nav">
                             <li class="active" data-content="1" id="tabRecruit">
-                                <p class="txt7-fw">募集概要</p>
-                                <svg role="img" aria-label="Entry Tabs" xmlns="http://www.w3.org/2000/svg" width="20"
-                                    height="16.135" viewBox="0 0 20 16.135">
-                                    <path id="Path_9800" data-name="Path 9800"
-                                        d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z"
-                                        transform="translate(0 0)" />
-                                </svg>
+                                <a href="#1">
+                                    <p class="txt7-fw">募集概要</p>
+                                    <svg role="img" aria-label="Entry Tabs" xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="16.135" viewBox="0 0 20 16.135">
+                                        <path id="Path_9800" data-name="Path 9800"
+                                            d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z"
+                                            transform="translate(0 0)" />
+                                    </svg>
+                                </a>
                             </li>
                             <li data-content="2" id="tabContact">
-                                <p class="txt7-fw">応募フォーム</p>
-                                <svg role="img" aria-label="Entry Tabs" xmlns="http://www.w3.org/2000/svg" width="20"
-                                    height="16.135" viewBox="0 0 20 16.135">
-                                    <path id="Path_9801" data-name="Path 9801"
-                                        d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z"
-                                        transform="translate(0 0)" />
-                                </svg>
+                                <a href="#2">
+                                    <p class="txt7-fw">応募フォーム</p>
+                                    <svg role="img" aria-label="Entry Tabs" xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="16.135" viewBox="0 0 20 16.135">
+                                        <path id="Path_9801" data-name="Path 9801"
+                                            d="M12,0l5.883,7.282v.071H0V8.781H17.886v.071L12,16.135h1.6L20,8.068,13.6,0Z"
+                                            transform="translate(0 0)" />
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </div>

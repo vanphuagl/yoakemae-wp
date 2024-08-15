@@ -285,7 +285,7 @@
 .c-news {
   &_wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
 
     @include maxW(1023px) {
       display: block;
@@ -310,16 +310,15 @@
 
   &_right {
     padding-top: 10px;
-    padding-right: 72px;
 
     @include maxW(1023px) {
       padding: 0;
-      margin-top: 60px;
+      margin-top: 52px;
     }
   }
 
   &_items {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 
     p {
       font-size: 2rem;
@@ -328,8 +327,8 @@
 
     h3 {
       font-size: 3.2rem;
-      line-height: 1.44;
-      letter-spacing: 1.92px;
+      line-height: 1.4;
+      letter-spacing: 1.8px;
       font-weight: 300;
       font-family: $tsu-fonts;
     }
@@ -339,7 +338,7 @@
     }
 
     @include maxW(1023px) {
-      margin-bottom: 20px;
+      margin-bottom: 14px;
 
       p {
         font-size: 1.6rem;

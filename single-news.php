@@ -39,11 +39,11 @@
         <!-- detail// -->
         <section class="detail">
             <div class="detail_container newspage_container l-container">
-                <div class="detail_wrapper newspage_wrapper">
-                    <div class="detail_left newspage_left pc-only">
+                <div class="detail_wrapper c-news_wrapper newspage_wrapper">
+                    <div class="detail_left c-news_left newspage_left pc-only">
                         <h2 class="txt3">News</h2>
                     </div>
-                    <div class="detail_right newspage_right">
+                    <div class="detail_right c-news_right newspage_right">
                         <div class="detail_heading txt7">
                             <p><?= get_the_date('Y.m.d') . ' ' . $day; ?></p>
                             <h3><?= the_title(); ?></h3>
