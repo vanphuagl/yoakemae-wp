@@ -284,13 +284,15 @@
     }
 
     &_contact {
+      margin-top: 10px;
+
       &.is-confirm {
         input,
         textarea {
           pointer-events: none !important;
         }
       }
-      
+
       @include maxW(1023px) {
         margin-top: 72px;
       }
@@ -305,28 +307,33 @@
           font-size: 1.8rem;
           font-weight: 300;
           line-height: 1.4;
+          letter-spacing: -0.4px;
         }
 
         span {
           position: absolute;
-          right: -20px;
+          right: -10px;
           top: 5px;
           transform: scaleY(0.7);
 
           &:after {
             content: "*";
             position: absolute;
-            font-size: 2rem;
-            color: #A80000;
+            font-size: 2.5rem;
+            color: #a80000;
           }
         }
       }
 
       &_items {
-        margin-top: 35px;
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
 
         @include maxW(1023px) {
-          margin-top: 25px;
+          margin-bottom: 12px;
         }
       }
 
@@ -335,13 +342,14 @@
         min-height: 40px;
         word-break: break-word;
         position: relative;
-        padding-top: 15px;
-        padding-bottom: 25px;
+        padding-top: 22px;
+        padding-bottom: 24px;
 
         font-size: 1.8rem;
         font-weight: 300;
         line-height: 1.2;
         font-family: $tsu-fonts;
+        letter-spacing: -0.5px;
 
         &:after {
           content: "";
@@ -381,28 +389,30 @@
           outline: none;
           -webkit-box-sizing: border-box;
           box-sizing: border-box;
-          font-size: 1.8rem;
-          font-weight: 300;
-          line-height: 1.2;
           color: #000;
           position: relative;
-          font-family: $tsu-fonts;
           -webkit-appearance: none;
           width: 100%;
           height: 40px;
+
+          font-size: 1.8rem;
+          font-weight: 300;
+          line-height: 1.2;
+          font-family: $tsu-fonts;
+          letter-spacing: -0.5px;
         }
 
         .custom-textarea-profile {
-          height: 100px;
+          height: 145px;
         }
 
         .custom-textarea-recommend {
-          height: 185px;
+          height: 257px;
         }
 
         @include maxW(1023px) {
-          padding-top: 10px;
-          padding-bottom: 10px;
+          padding-top: 11px;
+          padding-bottom: 8px;
           font-size: 1.6rem;
 
           input,
@@ -412,46 +422,53 @@
           }
 
           .custom-textarea-profile {
-            height: 125px;
+            height: 95px;
           }
 
           .custom-textarea-recommend {
-            height: 255px;
+            height: 178px;
           }
         }
       }
     }
 
     &_contact_description {
-      margin-top: 35px;
+      margin-top: 27px;
 
-      font-weight: $tsu-fonts;
+      font-family: $tsu-fonts;
       font-weight: 300;
       font-size: 1.4rem;
-      line-height: 1.86;
-      letter-spacing: -0.28px;
+      line-height: 1.74;
+      letter-spacing: -0.32px;
+
+      @include maxW(1023px) {
+        margin-top: 14px;
+        font-size: 1.3rem;
+        line-height: 1.45;
+        letter-spacing: 0.2px;
+      }
     }
 
     &_contact_privacy {
-      margin-top: 80px;
+      margin-top: 74px;
       border: 1px solid $black-cl;
-      height: 26.47vw;
+      height: 300px;
       position: relative;
 
       @include maxW(1024px) {
-        height: 69vw;
-        margin-top: 35px;
+        height: 280px;
+        margin-top: 57px;
       }
 
       &_content {
-        padding: 30px 35px 35px;
+        padding: 27px 35px 27px 50px;
         height: calc(100% - 60px);
         overflow-y: scroll;
 
         font-family: $tsu-fonts;
         font-size: 1.4rem;
-        line-height: 1.86;
-        letter-spacing: -0.28px;
+        line-height: 1.74;
+        letter-spacing: -0.32px;
 
         &::-webkit-scrollbar {
           width: 18px;
@@ -470,8 +487,10 @@
         }
 
         @include maxW(1023px) {
-          padding: 20px 25px 25px;
-          height: calc(100% - 55px);
+          padding: 13px 25px 25px;
+          font-size: 1.3rem;
+          line-height: 1.48;
+          letter-spacing: 0.3px;
         }
       }
 
@@ -484,15 +503,15 @@
         text-align: center;
         display: flex;
         align-items: center;
-        gap: 10px;
-        padding: 0 45px;
+        gap: 25px;
+        padding: 0 48px;
         background-color: $main-bg-cl;
 
         p {
           font-family: $tsu-fonts;
-          font-size: 1.4rem;
+          font-size: 1.8rem;
           line-height: 1.86;
-          letter-spacing: -0.28px;
+          letter-spacing: -0.32px;
         }
 
         input[type="checkbox"] {
@@ -530,13 +549,8 @@
         }
 
         @include maxW(1024px) {
-          height: 55px;
-          padding: 0 25px;
-
-          p {
-            font-size: 1.3rem;
-            margin-top: 2px;
-          }
+          padding: 0 32px;
+          gap: 20px;
         }
       }
     }
@@ -590,9 +604,9 @@
 
       svg {
         position: absolute;
-        top: 50%;
-        right: 40px;
-        transform: translateY(-50%);
+        top: 45%;
+        right: 55px;
+        transform: scaleY(0.7) translateY(-50%);
 
         path {
           transition: 0.3s ease-in-out;
@@ -605,9 +619,9 @@
           height: 80px;
         }
         svg {
-          width: 15px;
+          width: 22px;
           height: auto;
-          right: 25px;
+          right: 34px;
         }
       }
     }
@@ -621,23 +635,23 @@
 
       h2 {
         font-size: 3.2rem;
-        line-height: 1.7;
+        line-height: 1.5;
         letter-spacing: 1.92px;
       }
 
       p {
-        font-size: 1.8;
-        line-height: 1.78;
+        font-size: 1.8rem;
+        line-height: 1.6;
         letter-spacing: -0.36px;
-        margin-top: 60px;
+        margin-top: 45px;
       }
 
       &_link {
-        margin-top: 120px;
+        margin-top: 108px;
 
         a {
           font-size: 2rem;
-          letter-spacing: 0.4px;
+          letter-spacing: 0.8px;
         }
       }
 
@@ -646,19 +660,18 @@
 
         h2 {
           font-size: 2.2rem;
-          line-height: 1.7;
           letter-spacing: 1.32px;
         }
 
         p {
           font-size: 1.6rem;
-          line-height: 1.69;
+          line-height: 1.4;
           letter-spacing: 0.32px;
-          margin-top: 45px;
+          margin-top: 34px;
         }
 
         &_link {
-          margin-top: 45px;
+          margin-top: 40px;
 
           a {
             font-size: 1.8rem;

@@ -103,7 +103,7 @@ $("#js-checkbox").change(function () {
     }
 });
 
-btnConfirm.addEventListener("click", () => {
+btnConfirm.addEventListener("click", (e) => {
     checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
     checkLength(username, 1, 99);
     checkEmail(email);;
