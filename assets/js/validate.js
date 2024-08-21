@@ -85,11 +85,11 @@ const checkMailMatch = (input1, input2) => {
 //     checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
 //     checkLength(username, 1, 99);
 //     checkEmail(email);
-//     if (hasError && $(".is-error").length === 0) {
-//         $("#myForm").submit();
-//     } else {
-//         return false;
-//     }
+// if (hasError && $(".is-error").length === 0) {
+//     $("#myForm").submit();
+// } else {
+//     return false;
+// }
 // }
 
 $("#js-checkbox").change(function () {
@@ -107,6 +107,12 @@ btnConfirm.addEventListener("click", (e) => {
     checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
     checkLength(username, 1, 99);
     checkEmail(email);;
+
+    if (hasError && $(".is-error").length === 0) {
+        $(this).addClass("disabled");
+    } else {
+        return false;
+    }
 });
 
 // https://www.xserver.ne.jp/bizhp/contact-form-7-confirm-thanks/

@@ -28,7 +28,14 @@
                                     After the announcement, the winners will be sent an email with information about the final selection process.
                                 </p>
                                 <?php else : ?>
-
+                                <h2>
+                                    ご応募ありがとうございます <br />
+                                    送信が完了しました
+                                </h2>
+                                <p>
+                                    順次審査をおこない、11月中にウェブサイトにてファイナリストを発表いたします。<br class="pc-only" />
+                                    受賞者の方には発表後、メールにて最終審査のご案内をお送りいたします。
+                                </p>
                                 <?php endif; ?>
                                 <div class="entry_complete_link">
                                     <a href="<?= home_url(); ?>" class="u-underline">Back to Top</a>

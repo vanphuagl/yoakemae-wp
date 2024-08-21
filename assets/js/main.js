@@ -15,10 +15,12 @@ if (document.getElementById("entrypage")) {
         .classList.add("show-content");
     })
   );
-  // 
-  document.querySelector('.js-contact-send').addEventListener('click', function () {
-    $(".js-contact-send").addClass("disabled");
-  })
+  //
+  if (document.querySelector('.js-contact-send')) {
+    document.querySelector('.js-contact-send').addEventListener('click', function () {
+      $(this).addClass("disabled");
+    })
+  }
 }
 
 // ========= lazy loading =======
