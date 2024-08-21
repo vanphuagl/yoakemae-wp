@@ -104,13 +104,17 @@ $("#js-checkbox").change(function () {
 });
 
 btnConfirm.addEventListener("click", (e) => {
+    $('.js-contact-confirm').addClass("disabled");
     checkRequired([username, address, phone, email, age, profile, title, recommend, plan, url]);
     checkLength(username, 1, 99);
     checkEmail(email);;
 
     if (hasError && $(".is-error").length === 0) {
-        $(this).addClass("disabled");
+        $('.js-contact-confirm').addClass("disabled");
     } else {
+        setTimeout(() => {
+            $('.js-contact-confirm').removeClass("disabled");
+        }, 1000);
         return false;
     }
 });
