@@ -53,6 +53,8 @@
       p {
         font-size: 2rem;
         opacity: 0.5;
+        margin-left: 3px;
+        margin-bottom: 5px;
       }
 
       h3 {
@@ -60,7 +62,7 @@
         line-height: 1.44;
         letter-spacing: 1.92px;
         font-weight: 300;
-        font-family: $tsu-fonts;
+        font-family: $main-fonts;
       }
 
       @include maxW(1023px) {
@@ -92,7 +94,7 @@
     }
 
     &_content {
-      font-family: $tsu-fonts;
+      font-family: $main-fonts;
 
       p,
       h4 {

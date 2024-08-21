@@ -181,6 +181,7 @@
 
       @include maxW(1023px) {
         padding-left: 15px;
+        padding-right: 15px;
 
         &_text {
           padding-top: 100px;
@@ -327,7 +328,7 @@
     }
 
     &_ptext {
-      font-family: $tsu-fonts;
+      font-family: $main-fonts;
       font-size: 3.8rem;
       line-height: 1.4;
       letter-spacing: 1.5px;
@@ -445,7 +446,7 @@
 
     &_content {
       h2 {
-        font-family: $tsu-fonts;
+        font-family: $main-fonts;
         font-size: 3.2rem;
         font-weight: 300;
         line-height: 1.64;
@@ -456,7 +457,7 @@
       &_desc {
         margin-top: 30px;
         padding-right: 30px;
-        font-family: $tsu-fonts;
+        font-family: $main-fonts;
         font-size: 1.6rem;
         letter-spacing: 1.5px;
         line-height: 1.5;
@@ -588,6 +589,7 @@
       align-items: center;
       width: fit-content;
       margin-top: 60px;
+      margin-left: 3px;
 
       p {
         font-size: 4.6rem;

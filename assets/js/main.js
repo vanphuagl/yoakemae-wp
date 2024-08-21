@@ -1,15 +1,6 @@
 // ========= entry page =======
 if (document.getElementById("entrypage")) {
   //
-  $(window).on("load", function () {
-    let hash = window.location.hash.substring(1);
-    if (hash == 2) {
-      $('#tabContact').click();
-    } else {
-      $('#tabRecruit').click();
-    }
-  });
-  //
   const tabs = document.querySelectorAll(".js-entry-nav li");
   const contents = document.querySelectorAll(".js-entry-content");
 
@@ -24,6 +15,10 @@ if (document.getElementById("entrypage")) {
         .classList.add("show-content");
     })
   );
+  // 
+  document.querySelector('.js-contact-send').addEventListener('click', function () {
+    $(".js-contact-send").addClass("disabled");
+  })
 }
 
 // ========= lazy loading =======

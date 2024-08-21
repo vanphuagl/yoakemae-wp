@@ -16,6 +16,16 @@
 
     <?php if (is_page("entry")) :?>
     <script src="<?= get_template_directory_uri() ?>/assets/js/validate.js"></script>
+    <script>
+        $(window).on("load", function () {
+            let hash = window.location.hash.substring(1);
+            if (hash == 2) {
+                $('#tabContact').click();
+            } else {
+                $('#tabRecruit').click();
+            }
+        });
+    </script>
     <?php endif;  ?>
 
     <?php wp_footer(); ?>

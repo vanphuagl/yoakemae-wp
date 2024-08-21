@@ -34,19 +34,17 @@ switch ($routes) {
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="<?=$title?>">
     <meta property="og:title" content="<?=$title?>">
-    <meta property="og:description"
-        content="<?=$description?>">
-    <meta property="og:image" content="https://yoakemae.org/assets/img/ogp.webp">
-    <meta property="og:url" content="https://yoakemae.org">
+    <meta property="og:description" content="<?=$description?>">
+    <meta property="og:image" content="<?= get_template_directory_uri() ?>/assets/img/ogp.webp">
+    <meta property="og:url" content="<?= home_url(); ?>">
 
     <!-- @meta twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?=$title?>">
-    <meta property="twitter:description"
-        content="<?=$description?>">
-    <meta property="twitter:image" content="https://yoakemae.org/assets/img/ogp.webp">
+    <meta property="twitter:description" content="<?=$description?>">
+    <meta property="twitter:image" content="<?= get_template_directory_uri() ?>/assets/img/ogp.webp">
 
-    <link rel="canonical" href="https://yoakemae.org">
+    <link rel="canonical" href="<?= home_url(); ?>">
     <link rel="icon" href="<?= get_template_directory_uri() ?>/favicon.ico">
 
         <!-- @adobe fonts -->
@@ -81,7 +79,11 @@ switch ($routes) {
     <?php wp_head(); ?>
 </head>
 
-<body class="fadeout">
+<?php 
+    $locale = get_locale();
+?>
+
+<body class="fadeout <?php if($locale === "en_US") { echo 'en'; } ?>">
     <?php if (is_home() || is_front_page()) : ?>
     <!-- @loading -->
     <div class="c-loading js-loading">
@@ -261,6 +263,9 @@ switch ($routes) {
                         <li class="c-header_link"><a href="#overview" data-scroll-to>Overview</a></li>
                         <li class="c-header_link"><a href="#news" data-scroll-to>News</a></li>
                         <li class="c-header_link"><a href="#contact" data-scroll-to>Contact</a></li>
+                        <li class="c-header_lang sp-only">
+                            <?php echo do_shortcode('[bogo]'); ?>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -271,34 +276,7 @@ switch ($routes) {
     <!-- @cta -->
     <div class="c-cta is-homepage">
         <div class="c-cta_wrapper">
-            <div class="c-cta_marquee">
-                <div class="c-cta_marquee_inner">
-                    <div class="c-cta_marquee_text txt3-fw is-flex">
-                        <span class="time-fonts">
-                            <span class="tsu-fonts margin">募集期間 </span>2024<span class="tsu-fonts year">年
-                            </span>
-                            8<span class="tsu-fonts">／</span>30 − 9<span class="tsu-fonts">／</span>30</span>
-                    </div>
-                    <div class="c-cta_marquee_text txt3-fw">
-                        <span class="time-fonts">
-                            <span class="tsu-fonts margin">募集期間 </span>2024<span class="tsu-fonts year">年
-                            </span>
-                            8<span class="tsu-fonts">／</span>30 − 9<span class="tsu-fonts">／</span>30</span>
-                    </div>
-                    <div class="c-cta_marquee_text txt3-fw">
-                        <span class="time-fonts">
-                            <span class="tsu-fonts margin">募集期間 </span>2024<span class="tsu-fonts year">年
-                            </span>
-                            8<span class="tsu-fonts">／</span>30 − 9<span class="tsu-fonts">／</span>30</span>
-                    </div>
-                    <div class="c-cta_marquee_text txt3-fw">
-                        <span class="time-fonts">
-                            <span class="tsu-fonts margin">募集期間 </span>2024<span class="tsu-fonts year">年
-                            </span>
-                            8<span class="tsu-fonts">／</span>30 − 9<span class="tsu-fonts">／</span>30</span>
-                    </div>
-                </div>
-            </div>
+            <?php include 'components/marquee-txt.php'; ?>
         </div>
 
         <div class="c-header_lang txt3 pc-only">
@@ -418,48 +396,16 @@ switch ($routes) {
                         <li class="c-header_link"><a href="<?= home_url(); ?>/#about" data-scroll-to>About</a></li>
                         <li class="c-header_link"><a href="<?= home_url(); ?>/#overview" data-scroll-to>Overview</a></li>
                         <li class="c-header_link"><a href="<?= home_url(); ?>/news/">News</a></li>
-                        <li class="c-header_link"><a href="<?= home_url(); ?>/#contact" data-scroll-to>Contact</a></li>
+                        <li class="c-header_link"><a href="#contact" data-scroll-to>Contact</a></li>
+                        <li class="c-header_lang sp-only">
+                            <?php echo do_shortcode('[bogo]'); ?>
+                        </li>
                     </ul>
                 </div>
                 <div class="c-header_right pc-only">
                     <div class="c-cta">
                         <div class="c-cta_wrapper">
-                            <div class="c-cta_marquee">
-                                <div class="c-cta_marquee_inner">
-                                    <div class="c-cta_marquee_text txt3-fw is-flex">
-                                        <span class="time-fonts">
-                                            <span class="tsu-fonts margin">募集期間 </span>2024<span
-                                                class="tsu-fonts year">年
-                                            </span>
-                                            8<span class="tsu-fonts">／</span>30 − 9<span
-                                                class="tsu-fonts">／</span>30</span>
-                                    </div>
-                                    <div class="c-cta_marquee_text txt3-fw">
-                                        <span class="time-fonts">
-                                            <span class="tsu-fonts margin">募集期間 </span>2024<span
-                                                class="tsu-fonts year">年
-                                            </span>
-                                            8<span class="tsu-fonts">／</span>30 − 9<span
-                                                class="tsu-fonts">／</span>30</span>
-                                    </div>
-                                    <div class="c-cta_marquee_text txt3-fw">
-                                        <span class="time-fonts">
-                                            <span class="tsu-fonts margin">募集期間 </span>2024<span
-                                                class="tsu-fonts year">年
-                                            </span>
-                                            8<span class="tsu-fonts">／</span>30 − 9<span
-                                                class="tsu-fonts">／</span>30</span>
-                                    </div>
-                                    <div class="c-cta_marquee_text txt3-fw">
-                                        <span class="time-fonts">
-                                            <span class="tsu-fonts margin">募集期間 </span>2024<span
-                                                class="tsu-fonts year">年
-                                            </span>
-                                            8<span class="tsu-fonts">／</span>30 − 9<span
-                                                class="tsu-fonts">／</span>30</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include 'components/marquee-txt.php'; ?>
                         </div>
                     </div>
                     <div class="c-header_lang txt3">

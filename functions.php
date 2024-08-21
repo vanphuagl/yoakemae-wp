@@ -159,7 +159,7 @@
     add_action( 'init', 'create_taxonomy', 0 );
 
     add_action('init', function() {
-        remove_post_type_support('news', 'editor');
+        // remove_post_type_support('news', 'editor');
         remove_post_type_support('page', 'editor');
     }, 99);
 

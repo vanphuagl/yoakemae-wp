@@ -1,12 +1,23 @@
+
+<?php 
+    $locale = get_locale();
+?>
 <!-- contact// -->
 <section class="c-contact js-sections" id="contact">
     <div class="c-contact_container l-container">
         <div class="c-contact_newsletter <?php if(is_home() || is_front_page()) { echo 'js-is-blur'; } ?>">
             <div class="c-contact_newsletter_desc tsu-fonts">
-                <p class="txt7">
+                <?php if ($locale == "en_US") : ?>
+                <p class="txt7-fw">
+                    We will inform you of the latest information on before dawn, <br />
+                    such as the start of the recruitment, the selection of the winners, and related events.
+                </p>
+                <?php else : ?>
+                <p class="txt7-fw">
                     募集開始、受賞者決定、関連イベントなど、<br />
                     夜明け前の最新情報をお知らせします
                 </p>
+                <?php endif; ?>  
             </div>
 
             <div class="c-contact_newsletter_input" id="signupFormContainer_DDJ97">

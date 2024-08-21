@@ -1,3 +1,122 @@
+<?php 
+    $locale = get_locale();
+?>
+
+<?php if($locale == 'en_US') : ?>
+<div class="entry_top">
+    <p class="tsu-fonts txt7-fw">
+    For the first "Before Dawn" event, <br />
+    we are looking for photographic works that shed light on the future of photography. <br />
+    Theme, technique, size, amount, etc. are all free. <br />
+    There is no definition of "photography." <br />
+    Please show us your ideas for photographic works.
+    </p>
+</div>
+
+<div class="entry_bottom">
+    <div class="entry_text">
+        <h3>Eligibility</h3>
+        <div class="entry_text_desc">
+            <p>We do not impose any restrictions. We welcome anyone who aspires to create new forms of expression.</p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Application Guidelines</h3>
+        <div class="entry_text_desc">
+            <p>
+                The condition is that the work and its creation process do not violate any laws or infringe on the rights of others. <br />
+                Ownership and copyright of the submitted work belongs to the entrant.
+            </p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Submitted Works</h3>
+        <div class="entry_text_desc">
+            <p>
+                The theme, material, technique, form, size, and amount are free. <br />
+                We are looking for photographic works, but each person's definition of a photograph should be based on their own ideas.
+            </p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Post-election opportunities</h3>
+        <div class="entry_text_desc">
+            <p>The Grand Prix winner will be,</p>
+            <ul>
+                <li>3 million yen awarded as creative activity support grant</li>
+                <li>The right to hold a solo exhibition and follow-up support for the solo exhibition will be provided within one year of receiving the award.</li>
+                <li>Photobook production rights and follow-up on photobook production</li>
+                <li>Regular meetings to discuss creative activities with staff and judges</li>
+            </ul>
+            <p>We will present the following.</p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Application and review schedule</h3>
+        <div class="entry_text_desc">
+            <div class="entry_schedule">
+                <div class="entry_schedule_items">
+                    <p>Application acceptance: Friday, August 30th to Monday, September 30th, 2024</p>
+                </div>
+                <div class="entry_schedule_items">
+                    <p>Screening</p>
+                </div>
+                <div class="entry_schedule_items">
+                    <p>Six Grand Prix candidates to be announced / November 2024</p>
+                </div>
+                <div class="entry_schedule_items">
+                    <p>
+                        Public presentation review and Grand Prix decision / Saturday, December 21, 2024
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Judges</h3>
+        <div class="entry_text_desc">
+            <p>Anri Samata (Representative of ANRI)</p>
+            <p>Risaku Suzuki (Photographer)</p>
+            <p>Nozomi Himeno (Representative of Akaaka Publishing)</p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Screening Method</h3>
+        <div class="entry_text_desc">
+            <p>
+                    This year's three judges will look over all the submitted works and select six candidates. 
+                    After reviewing the presentations by the candidates, the judges will unanimously select one Grand Prize winner. 
+                    If the judges feel they would like to know more about the submitted works during the judging process, 
+                    they may ask additional questions or request an interview.
+            </p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>How to Apply</h3>
+        <div class="entry_text_desc">
+            <p>
+            Please fill out the necessary information on the application form and submit your entry. 
+            Please upload your entry using a cloud storage service or data file transfer service (Dropbox, Google Drive, Fire Storage, etc.) 
+            and include the link URL. If you are unable to download the work data due to expiration or other reasons, your entry will be invalid.
+            </p>
+            <p>&nbsp;</p>
+            <p>
+                Please limit the file size to 3MB per piece. However, this does not apply to videos and other relatively large file formats.
+            </p>
+        </div>
+    </div>
+    <div class="entry_text">
+        <h3>Secretariat</h3>
+        <div class="entry_text_desc">
+            <p>"Before Dawn | New Photography Award" Management Office</p>
+            <p>6-10-1 Roppongi, Minato-ku, Tokyo 106-6115 Roppongi Hills Mori Tower 15F CIRCLE by ANRI</p>
+            <p class="time-fonts">
+                Mail: <a href="mailto:yoakemae@anri.vc">yoakemae@anri.vc</a>
+            </p>
+        </div>
+    </div>
+</div>
+<?php else : ?>
 <div class="entry_top">
     <p class="tsu-fonts txt7-fw">
         第<span class="time-fonts">1</span>回「夜明け前」では、<br class="br1600" />
@@ -125,3 +244,4 @@
         </div>
     </div>
 </div>
+<?php endif; ?>

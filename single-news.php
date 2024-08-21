@@ -17,8 +17,8 @@
         }
     }
     //
-    $works = get_field('news_fields');
-    $content = $works['content'];
+    // $works = get_field('news_fields');
+    // $content = $works['content'];
     //
     $DayOfWeekNumber = date("w");
     $day = "mon";
@@ -52,7 +52,7 @@
                             <img src="<?= $thumbnail; ?>" draggable="false" alt="<?= the_title(); ?>" width="695" height="486" loading="lazy">
                         </div>
                         <div class="detail_content">
-                            <?= $content; ?>
+                            <?= the_content(); ?>
                         </div>
                         <div class="detail_control txt7">
                             <div class="detail_control_pager">

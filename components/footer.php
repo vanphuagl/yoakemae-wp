@@ -11,9 +11,9 @@
             <div class="c-footer_info">
                 <p>Social</p>
                 <div class="c-footer_info_group">
-                    <a href="<?= home_url() ?>" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <a href="<?= home_url() ?>" target="_blank" rel="noopener noreferrer">X</a>
-                    <a href="<?= home_url() ?>" target="_blank" rel="noopener noreferrer">note</a>
+                    <a href="https://www.instagram.com/yoakemae_photo/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://x.com/yoakemae_photo/" target="_blank" rel="noopener noreferrer">X</a>
+                    <a href="https://note.com/yoakemae_photo" target="_blank" rel="noopener noreferrer">note</a>
                 </div>
             </div>
         </div>
