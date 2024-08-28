@@ -5,69 +5,62 @@
 <?php if($locale == 'en_US') : ?>
 <div class="entry_top">
     <p class="tsu-fonts txt7-fw">
-    For the first "Before Dawn" event, <br />
-    we are looking for photographic works that shed light on the future of photography. <br />
-    Theme, technique, size, amount, etc. are all free. <br />
-    There is no definition of "photography." <br />
-    Please show us your ideas for photographic works.
+    The first YOAKEMAE ｜ New Photography Award seeks innovative works that illuminate the future of photography.<br />
+    Themes, techniques, sizes, and quantities are open to all interpretations. <br />
+    We avoid confining photography to a singular definition. Instead, we encourage you to articulate your unique vision of it.
     </p>
 </div>
 
 <div class="entry_bottom">
     <div class="entry_text">
-        <h3>Eligibility</h3>
+        <h3>Eligibility for Application</h3>
         <div class="entry_text_desc">
-            <p>We do not impose any restrictions. We welcome anyone who aspires to create new forms of expression.</p>
+            <p>There are no eligibility restrictions for applicants. We particularly embrace individuals aspiring to explore new expressions in photography.</p>
         </div>
     </div>
     <div class="entry_text">
         <h3>Application Guidelines</h3>
         <div class="entry_text_desc">
             <p>
-                The condition is that the work and its creation process do not violate any laws or infringe on the rights of others. <br />
-                Ownership and copyright of the submitted work belongs to the entrant.
+                Submitted works and their production processes must adhere to all laws and respect the rights of others. Applicants retain ownership and copyright of their submitted works.
             </p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>Submitted Works</h3>
+        <h3>Works</h3>
         <div class="entry_text_desc">
             <p>
-                The theme, material, technique, form, size, and amount are free. <br />
-                We are looking for photographic works, but each person's definition of a photograph should be based on their own ideas.
+                We accept photographic works of any theme, material, technique, form, size, or quantity. We encourage you to define photography according to your own perspective.
             </p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>Post-election opportunities</h3>
+        <h3>Award</h3>
         <div class="entry_text_desc">
-            <p>The Grand Prix winner will be,</p>
+            <p>The Grand Prix winner will receive:</p>
             <ul>
-                <li>3 million yen awarded as creative activity support grant</li>
-                <li>The right to hold a solo exhibition and follow-up support for the solo exhibition will be provided within one year of receiving the award.</li>
-                <li>Photobook production rights and follow-up on photobook production</li>
-                <li>Regular meetings to discuss creative activities with staff and judges</li>
+                <li>A grant of 3 million yen to support their creative endeavors.</li>
+                <li>The opportunity to host a solo exhibition, with production assistance provided one year after receiving the prize.</li>
+                <li>The right to produce a photo book, with financial and technical support throughout the production process.</li>
+                <li>Regular meetings with staff and jury members to discuss their creative activities.</li>
             </ul>
-            <p>We will present the following.</p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>Application and review schedule</h3>
+        <h3>Application and Screening Schedule</h3>
         <div class="entry_text_desc">
             <div class="entry_schedule">
                 <div class="entry_schedule_items">
-                    <p>Application acceptance: Friday, August 30th to Monday, September 30th, 2024</p>
+                    <p>Application period: August 30 (Fri) - September 30 (Mon), 2024</p>
                 </div>
                 <div class="entry_schedule_items">
                     <p>Screening</p>
                 </div>
                 <div class="entry_schedule_items">
-                    <p>Six Grand Prix candidates to be announced / November 2024</p>
+                    <p>Announcement of 6 finalists for the Grand Prix: November 2024</p>
                 </div>
                 <div class="entry_schedule_items">
-                    <p>
-                        Public presentation review and Grand Prix decision / Saturday, December 21, 2024
-                    </p>
+                    <p>Grand Prix judgment: Saturday, December 21, 2024</p>
                 </div>
             </div>
         </div>
@@ -77,39 +70,34 @@
         <div class="entry_text_desc">
             <p>Anri Samata (Representative of ANRI)</p>
             <p>Risaku Suzuki (Photographer)</p>
-            <p>Nozomi Himeno (Representative of Akaaka Publishing)</p>
+            <p>Nozomi Himeno (Representative of Akaasha)</p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>Screening Method</h3>
+        <h3>Judging Method</h3>
         <div class="entry_text_desc">
             <p>
-                    This year's three judges will look over all the submitted works and select six candidates. 
-                    After reviewing the presentations by the candidates, the judges will unanimously select one Grand Prize winner. 
-                    If the judges feel they would like to know more about the submitted works during the judging process, 
-                    they may ask additional questions or request an interview.
+                The three members of this year’s jury will review all entries and select six candidates. The Grand Prix winner will be chosen by a panel of judges after a presentation review by the candidates. During the process, judges may request additional information or interviews.
             </p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>How to Apply</h3>
+        <h3>How to apply</h3>
         <div class="entry_text_desc">
             <p>
-            Please fill out the necessary information on the application form and submit your entry. 
-            Please upload your entry using a cloud storage service or data file transfer service (Dropbox, Google Drive, Fire Storage, etc.) 
-            and include the link URL. If you are unable to download the work data due to expiration or other reasons, your entry will be invalid.
+            Apply using the application form. Fill out the required information and send it to us. Upload your entry using a data file transfer service and note the URL of the link.
             </p>
             <p>&nbsp;</p>
             <p>
-                Please limit the file size to 3MB per piece. However, this does not apply to videos and other relatively large file formats.
+                Each file should be no larger than 3 MB per work. Note that this limit does not apply to relatively large file formats such as videos.
             </p>
         </div>
     </div>
     <div class="entry_text">
-        <h3>Secretariat</h3>
+        <h3>Management Office</h3>
         <div class="entry_text_desc">
-            <p>"Before Dawn | New Photography Award" Management Office</p>
-            <p>6-10-1 Roppongi, Minato-ku, Tokyo 106-6115 Roppongi Hills Mori Tower 15F CIRCLE by ANRI</p>
+            <p>"YOAKEMAE｜New Photography Award" Management Office</p>
+            <p>CIRCLE by ANRI Roppongi Hills Mori Tower 15F, 6-10-1 Roppongi, Minato-ku, Tokyo 106-6115, Japan</p>
             <p class="time-fonts">
                 Mail: <a href="mailto:yoakemae@anri.vc">yoakemae@anri.vc</a>
             </p>

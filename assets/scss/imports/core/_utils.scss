@@ -116,7 +116,7 @@
 }
 
 button.disabled {
-  pointer-events: none;
+  pointer-events: none !important;
 }
 
 main img {
@@ -150,7 +150,7 @@ main img {
 body.en {
   //
   .c-cta_marquee_inner {
-    grid-template-columns: repeat(4, 190px);
+    grid-template-columns: repeat(4, 300px) !important;
   }
   .c-contact_newsletter_desc {
     font-family: "Times New Roman", serif;
@@ -219,7 +219,7 @@ body.en {
   //
   @include maxW(1023px) {
     .c-cta_marquee_inner {
-      grid-template-columns: repeat(4, 120px);
+      grid-template-columns: repeat(4, 185px) !important;
     }
     .c-cta_marquee_text span.time-fonts {
       letter-spacing: 3px;

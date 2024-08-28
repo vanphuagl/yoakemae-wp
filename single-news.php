@@ -48,9 +48,13 @@
                             <p><?= get_the_date('Y.m.d') . ' ' . $day; ?></p>
                             <h3><?= the_title(); ?></h3>
                         </div>
+
+                        <?php if (has_post_thumbnail()) : ?>
                         <div class="detail_thumbnail">
                             <img src="<?= $thumbnail; ?>" draggable="false" alt="<?= the_title(); ?>" width="695" height="486" loading="lazy">
                         </div>
+                        <?php endif; ?>
+                        
                         <div class="detail_content">
                             <?= the_content(); ?>
                         </div>

@@ -20,12 +20,13 @@
                             <div class="entry_complete txt7-fw">
                                 <?php if ($locale == 'en_US') : ?>
                                 <h2>
-                                    Thank you for your application <br />
-                                    Submission completed.
+                                    Thank you for submitting your entry for "YOAKEMAE｜New Photography Award." <br />
+                                    We have successfully received your submission.
                                 </h2>
                                 <p>
-                                    The judging will be carried out in order, and the finalists will be announced on the website in November. <br class="pc-only" />
-                                    After the announcement, the winners will be sent an email with information about the final selection process.
+                                    The finalists will be announced on our website in November. <br class="pc-only" />
+                                    If you are selected as a finalist, you will receive an invitation to the final judging by email.<br />
+                                    We appreciate your patience and look forward to sharing the results soon.
                                 </p>
                                 <?php else : ?>
                                 <h2>

@@ -340,3 +340,24 @@
     
     add_action('wp_ajax_nopriv_more_post_ajax', 'more_post_ajax');
     add_action('wp_ajax_more_post_ajax', 'more_post_ajax');
+
+    //rewrite article title to id
+    function news_rewrite() {
+        global $wp_rewrite;
+        $queryarg = 'post_type=news&p=';
+        $wp_rewrite->add_rewrite_tag( '%news_id%', '([^/]+)', $queryarg );
+        $wp_rewrite->add_permastruct( 'news', '/news/%news_id%/', false );
+        }
+    add_action( 'init', 'news_rewrite' );
+        
+    function news_permalink( $post_link, $id = 0, $leavename ) {
+        global $wp_rewrite;
+        $post = &get_post( $id );
+        if ( is_wp_error( $post ) || get_post_type($post) != 'news')
+        return $post_link;
+        $newlink = $wp_rewrite->get_extra_permastruct( 'news' );
+        $newlink = home_url( user_trailingslashit( $newlink ) );
+        $newlink = str_replace( '%news_id%', $post->ID, $newlink );
+        return $newlink;
+    }
+    add_filter('post_type_link', 'news_permalink', 1, 3);

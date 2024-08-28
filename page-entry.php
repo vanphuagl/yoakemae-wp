@@ -27,10 +27,11 @@
                                 <div class="entry_contact_description">
                                     <?php if ($locale == 'en_US') : ?>
                                     <p>
-                                        After uploading using a cloud storage service or data file transfer service (Dropbox, Google Drive, Fire Storage, etc.), 
-                                        please enter the link URL. If the work data cannot be downloaded due to expiration or other reasons, your application will be invalid. 
-                                        Please aim for file sizes to be up to 3MB per piece. 
-                                        However, this does not apply to relatively large file formats such as videos.
+                                        - There are no restrictions on the format, number of works, or attached materials.<br>
+										- Upload your work data online using a data file transfer service and include the URL in the application form.<br>
+										- Each file should be no larger than 3 MB per work. Note that this limit does not apply to relatively large file formats such as videos.<br>
+										- Ensure the file storage period of the transfer service extends beyond the application deadline to prevent invalidation due to expiration.
+
                                     </p>
                                     <?php else : ?>
                                     <p>
@@ -187,9 +188,9 @@
                                     <div class="entry_contact_privacy_check">
                                         <input id="js-checkbox" name="checkbox" type="checkbox" value="">
                                         <?php if ($locale == 'en_US') : ?>
-                                        <p>I agree to the privacy policy</p>
+                                        <p>I agree to the privacy policy <span></span></p>
                                         <?php else : ?>
-                                        <p>プライバシーポリシーに同意する</p>
+                                        <p>プライバシーポリシーに同意する <span></span></p>
                                         <?php endif; ?>
                                     </div>
                                 </div>

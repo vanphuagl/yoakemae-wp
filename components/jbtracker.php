@@ -9,8 +9,8 @@
             <div class="c-contact_newsletter_desc tsu-fonts">
                 <?php if ($locale == "en_US") : ?>
                 <p class="txt7-fw">
-                    We will inform you of the latest information on before dawn, <br />
-                    such as the start of the recruitment, the selection of the winners, and related events.
+                    We will keep you up to date with the latest information on [YOAKEMAE] <br class="pc-only" />
+                    including the start of the call for entries, the selection of winners, and related events.
                 </p>
                 <?php else : ?>
                 <p class="txt7-fw">

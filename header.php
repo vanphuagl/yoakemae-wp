@@ -396,7 +396,7 @@ switch ($routes) {
                         <li class="c-header_link"><a href="<?= home_url(); ?>/#about" data-scroll-to>About</a></li>
                         <li class="c-header_link"><a href="<?= home_url(); ?>/#overview" data-scroll-to>Overview</a></li>
                         <li class="c-header_link"><a href="<?= home_url(); ?>/news/">News</a></li>
-                        <li class="c-header_link"><a href="#contact" data-scroll-to>Contact</a></li>
+                        <li class="c-header_link"><a href="<?= home_url(); ?>/#contact" data-scroll-to>Contact</a></li>
                         <li class="c-header_lang sp-only">
                             <?php echo do_shortcode('[bogo]'); ?>
                         </li>

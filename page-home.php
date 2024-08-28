@@ -54,20 +54,19 @@
                                 <?php if ($locale == "en_US") : ?> 
                                 <div class="js-is-blur">
                                     <p class="txt7-fw">
-                                        Before Dawn | New Photography Award is an award <br />
-                                        that invites submissions of works that pave the way for the future of photography. <br />
-                                        Held once a year, one Grand Prize winner will be selected.
-                                    </p>
+	                                    YOAKEMAE｜New Photography Award is <br>
+	                                    dedicated to recognizing works that will shape the future of photography. <br class="pc-only">
+	                                    Each year, one Grand Prix winner will be selected.
+	                                </p>
                                     <p class="txt7-fw">
-                                        In addition to a prize of 3 million yen to support the winner's creative activities, <br />
-                                        the winner will receive a wide range of support necessary to take flight as a photographer, <br />
-                                        including granting the rights and financial support to hold a solo exhibition and publish a photo book, <br />
-                                        and consultations regarding their artistic activities.
-                                    </p>
+	                                    Award recipients will receive a grant to support their creative endeavors, <br class="pc-only">
+	                                    along with opportunities for a solo exhibition, the production of a photo book, <br class="pc-only">
+	                                    and guidance in their artistic activities.
+	                                </p>
                                     <p class="txt7-fw">
-                                        The award is hosted by venture capital firm ANRI. <br />
-                                        Let's create an amazing future for photographic expression together.
-                                    </p>
+	                                    Let's collaborate to forge an inspiring future <br class="pc-only">
+	                                    for photographic expression.
+	                                </p>
                                 </div>
                                 <?php else : ?> 
                                 <div class="js-is-blur">
@@ -129,14 +128,14 @@
                         <div class="overview_layout js-is-blur">
                             <div class="overview_left">
                                 <?php if ($locale == "en_US") : ?> 
-                                <p class="overview_ptext txt7-fw">Application Period</p>
+                                <p class="overview_ptext txt7-fw">Application period</p>
                                 <?php else : ?> 
                                 <p class="overview_ptext txt7-fw">募集期間</p>
                                 <?php endif; ?> 
                             </div>
                             <div class="overview_right">
                                 <?php if ($locale == "en_US") : ?> 
-                                <p class="overview_ptext txt7-fw">August 30th (Friday) - September 30th (Monday), 2024</p>
+                                <p class="overview_ptext txt7-fw">August 30 - September 30, 2024</p>
                                 <?php else : ?> 
                                 <p class="overview_ptext txt7-fw">
                                     <span class="time-fonts">2024</span>年<span class="time-fonts">8</span>月<span
@@ -156,7 +155,7 @@
                             </div>
                             <div class="overview_right">
                                 <?php if ($locale == "en_US") : ?> 
-                                <p class="overview_ptext txt7-fw">3 Million + Solo Exhibition + Photobook Production</p>
+                                <p class="overview_ptext txt7-fw">solo exhibition + <br class="sp-only" />production of a photo book + <br class="sp-only" />3 million yen</p>
                                 <?php else : ?> 
                                 <p class="overview_ptext txt7-fw"><span class="time-fonts">300</span>万＋個展開催＋写真集制作</p>
                                 <?php endif; ?> 
@@ -167,7 +166,7 @@
                                 <div class="overview_box">
                                     <div class="overview_box_inner">
                                         <?php if ($locale == "en_US") : ?> 
-                                        <p class="overview_box_top overview_ptext txt7-fw js-is-blur">Judges</p>
+                                        <p class="overview_box_top overview_ptext txt7-fw js-is-blur">Jurors</p>
                                         <?php else : ?> 
                                         <p class="overview_box_top overview_ptext txt7-fw js-is-blur">審査員</p>
                                         <?php endif; ?> 
@@ -193,8 +192,8 @@
                                                 <h2 class="overview_content_title txt7-fw">Anri Samata</h2>
                                                 <div class="overview_content_desc">
                                                     <p>
-                                                        Managing Partner at ANRI. In 2012, at the age of 27, he founded the venture capital firm "ANRI". 
-                                                        He continues to make numerous investments, including in the internet and deep tech fields.
+                                                        Representative Partner, ANRI<br><br>
+                                                        Anri Samata is the founding partner of ANRI, a venture capital firm he launched in 2012 at the age of 27. Samata has led numerous successful investments, focusing on the Internet and deep tech sectors. His leadership continues to shape the future of technology and entrepreneurship.
                                                     </p>
                                                 </div>
                                                 <?php else : ?> 
@@ -223,12 +222,11 @@
                                             </figure>
                                             <div class="overview_content">
                                                 <?php if ($locale == "en_US") : ?> 
-                                                <h2 class="overview_content_title txt7-fw">Suzuki Risaku</h2>
+                                                <h2 class="overview_content_title txt7-fw">Risaku Suzuki</h2>
                                                 <div class="overview_content_desc">
                                                     <p>
-                                                        Photographer. In 2000, he won the 25th Kimura Ihei Photography Award for "PILES OF TIME." 
-                                                        His photo books include "KUMANO," "Photosensitive Plate of Perception," and "Winter and Spring," 
-                                                        and his solo exhibitions include "Stream of Consciousness" and "Water Mirror."
+                                                        Photographer<br><br>
+                                                        Winner of the 25th Ihei Kimura Photography Award in 2000 for his work "PILES OF TIME," Risaku Suzuki's published books include "Kumano," "Chikaku no kanko-ban (Sensitive Plate of Perception)," and "Fuyu to Haru (Winter and Spring)." Suzuki's solo exhibitions include "Ishiki no Nagare (Stream of Consciousness)" and "Suikyo (Water Mirror)."
                                                     </p>
                                                 </div>
                                                 <?php else : ?> 
@@ -259,13 +257,11 @@
                                             </figure>
                                             <div class="overview_content">
                                                 <?php if ($locale == "en_US") : ?> 
-                                                <h2 class="overview_content_title txt7-fw">Himeno Nozomi</h2>
+                                                <h2 class="overview_content_title txt7-fw">Kimi Himeno</h2>
                                                 <div class="overview_content_desc">
                                                     <p>
-                                                    Representative of the publishing company AKAAKA. 
-                                                    Established AKAAKA in 2006, he has published many books, mainly photo books and art books, 
-                                                    including Shiga Lieko's "CANARY," Asada Masashi's "The Asadas," Fujioka Aya's "The River Flows," 
-                                                    and Ishikawa Ryuichi's "Polyphony of Breathtaking Scenery."
+                                                    Founder and Representative, AKAAKAsha<br><br>
+                                                    Kimi Himeno is the founder of AKAAKAsha, a publishing house established in 2006. Known for its dedication to photography and art, AKAAKAsha has published numerous influential works, including Rieko Shiga's "CANARY," Masashi Asada's "The Asada Family," Aya Fujioka's "Kawa wa yuku," and Ryuichi Ishikawa's "Zekkei no Polyphony." Himeno's commitment to showcasing compelling visual narratives has made AKAAKAsha a leading name in the world of art publishing.
                                                     </p>
                                                 </div>
                                                 <?php else : ?> 
@@ -301,7 +297,7 @@
                     <div class="js-is-blur">
                         <a href="https://note.com/yoakemae_photo/n/nb05db986abb0" class="overview_btn" target="_blank">
                             <?php if ($locale == "en_US") : ?>
-                            <p class="tsu-fonts txt7-fw">Discussion</p>
+                            <p class="tsu-fonts txt7-fw">Jurors' discussion</p>
                             <?php else : ?>
                             <p class="tsu-fonts txt7-fw">審査員鼎談</p>
                             <?php endif ?>
@@ -314,7 +310,7 @@
                         </a>
                         <a href="<?= home_url() ?>/entry/" class="overview_btn">
                             <?php if ($locale == "en_US") : ?>
-                            <p class="tsu-fonts txt7-fw">Recruitment / Application</p>
+                            <p class="tsu-fonts txt7-fw">Application and Review Process</p>
                             <?php else : ?>
                             <p class="tsu-fonts txt7-fw">募集概要 / 応募フォーム</p>
                             <?php endif ?>

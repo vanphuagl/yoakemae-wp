@@ -6,21 +6,21 @@
     <div class="c-cta_marquee_inner">
         <div class="c-cta_marquee_text txt3-fw is-flex">
             <span class="time-fonts">
-                <span class="margin">Entry　</span>2024.8.30 - 9.30
+                <span class="margin">Application period　</span>2024.8.30 - 9.30
         </div>
         <div class="c-cta_marquee_text txt3-fw">
             <span class="time-fonts">
-                <span class="margin">Entry　</span>2024.8.30 - 9.30
+                <span class="margin">Application period　</span>2024.8.30 - 9.30
             </span>
         </div>
         <div class="c-cta_marquee_text txt3-fw">
             <span class="time-fonts">
-                <span class="margin">Entry　</span>2024.8.30 - 9.30
+                <span class="margin">Application period　</span>2024.8.30 - 9.30
             </span>
         </div>
         <div class="c-cta_marquee_text txt3-fw">
             <span class="time-fonts">
-                <span class="margin">Entry　</span>2024.8.30 - 9.30
+                <span class="margin">Application period　</span>2024.8.30 - 9.30
             </span>
         </div>
     </div>

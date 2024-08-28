@@ -28,7 +28,7 @@
                             <div class="entry_btn">
                                 <button class="entry_btn_send js-contact-send" type="submit" form="myForm">
                                     <?php if ($locale == 'en_US') : ?>
-                                    <p class="txt7-fw">Send</p>
+                                    <p class="txt7-fw">Submit</p>
                                     <?php else : ?>
                                     <p class="txt7-fw">応募する</p>
                                     <?php endif; ?>

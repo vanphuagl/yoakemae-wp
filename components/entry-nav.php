@@ -5,7 +5,7 @@
 <ul class="entry_nav js-entry-nav">
     <li class="<?php if (is_page("entry")) { echo 'active'; }  ?>" data-content="1" id="tabRecruit">
         <?php if ($locale == 'en_US') : ?>
-        <p class="txt7-fw">Recruitment</p>
+        <p class="txt7-fw">Requirements</p>
         <?php else : ?>
         <p class="txt7-fw">募集概要</p>
         <?php endif; ?>
